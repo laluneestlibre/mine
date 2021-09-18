@@ -102,11 +102,11 @@
 		})();
 
 	// Signup Form.
-		(function() {
+		/*(function() {
 
 			// Vars.
 				var $form = document.querySelectorAll('#signup-form')[0],
-					$submit = document.querySelectorAll('#signup-form input[type="submit"]')[0],
+					//$submit = document.querySelectorAll('#signup-form input[type="submit"]')[0],
 					$message;
 
 			// Bail if addEventListener isn't supported.
@@ -133,7 +133,7 @@
 				$message._hide = function() {
 					$message.classList.remove('visible');
 				};
-
+*/
 			// Events.
 			// Note: If you're *not* using AJAX, get rid of this event listener.
 				$form.addEventListener('submit', function(event) {
